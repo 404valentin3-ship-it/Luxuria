@@ -1,6 +1,6 @@
 body {
     background-color:#0D0A0A;
-    color: white;
+    color: #e8d5b0;
     max-width: 800px;
     margin: 0 auto
 }
@@ -15,9 +15,6 @@ p {
 }
 
  .Sienna-Banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
         width: 100%;
         height: 280px;
         background: radial-gradient(ellipse at 50% 0%, 
@@ -57,4 +54,57 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+ h2 {
+        font-family:"Playfair Display SC", serif;
+        background:rgba(38, 63, 36, 0.1);
+        padding: 0.8rem 1.5rem;
+        color:#fdffc9;
+        text-align: center;
+         border-left: 4px solid #c9a84c;
+    
+    }
+
+    h4 {
+        font-family:"Playfair Display SC", serif;
+        text-align: center;
+
+    
+    }
+
+     .character-quote {
+        font-family: "Playfair Display SC", serif;
+        font-size: clamp(0.7rem, 1.5vw, 0.95rem);
+        color: rgba(201,168,76,0.7);
+        letter-spacing: 0.15em;
+        font-style: italic;
+        text-align: center;
+        margin-top: 0.5rem;
+     }
+
+    .divider {
+        width: 60%;
+        height: 1px;
+        background: linear-gradient(90deg,
+        transparent,
+        #c9a84c,
+        transparent
+        );
+        margin: 1.5rem auto;
+    }
+
+    .header-ornament {
+    text-align: center;
+    background: linear-gradient(135deg,
+        #030f01,
+        #c0a55e,
+        #2c181a
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.5;
+    font-size: clamp(0.5rem, 4vw, 2rem);
+    margin-top: 0.04em;
 }
